@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="about-container">
+            <h1>About This Tool</h1>
+            <p>This tool checks websites for XSS vulnerabilities by analyzing form inputs. It helps identify potential security risks by testing various forms on a website for XSS attack vectors.</p>
+            <p>Created by: mihasha</p>
+            <a href="/">Back to Home</a>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>
