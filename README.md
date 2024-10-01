@@ -1,5 +1,5 @@
 # WebScanXSS
-A website which send request on any URL with the simple XSS payload and returns the result.
+A website which send request to any URL with the simple XSS payload and returns the result.
 
 Flask Practicing. 
 
